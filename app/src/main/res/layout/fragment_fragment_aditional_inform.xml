@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".view.fragment.FragmentAditionalInform">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:text="cancel" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="326dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="190dp"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/tvPrise"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+
+
+        android:text="Price" />
+
+    <ImageView
+        android:id="@+id/imageViewADITIONAL"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:layout_marginTop="10dp"
+        android:src="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="400dp"
+        android:text="save" />
+
+</FrameLayout>
